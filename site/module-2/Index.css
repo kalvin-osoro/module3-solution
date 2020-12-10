@@ -1,0 +1,100 @@
+div {
+  /* background-color: royalblue; */
+  padding: 2px;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 175%;
+}
+p{
+    font-family: sans-serif;
+}
+.d1 {
+  background-color: saddlebrown;
+}
+.d2 {
+  background-color: salmon;
+}
+.d3 {
+  background-color: seagreen;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  width: 100%;
+}
+
+.h1,
+.h2,
+.h3 {
+  float: right;
+  top: 0;
+  right: 0;
+  clear: both;
+  border: 1px solid black;
+  font-size: 125%;
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .d1,
+  .d2,
+  .d3 {
+    box-sizing: border-box;
+    border: 2px solid green;
+    float: left;
+    /* padding: 2px; */
+    margin: 2.5px;
+  }
+
+  .d1 {
+    width: 32.8%;
+    /* box-sizing: inherit; */
+    padding: 2px;
+    /* margin: 2px; */
+  }
+  .d2 {
+    width: 32.8%;
+    box-sizing: border-box;
+  }
+  .d3 {
+    width: 32.8%;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .d1,
+  .d2,
+  .d3 {
+    box-sizing: border-box;
+    border: 2px solid green;
+    float: left;
+    margin: 2px;
+    left: auto;
+    right: auto;
+  }
+  .d1 {
+    width: 49.3%;
+    box-sizing: border-box;
+  }
+  .d2 {
+    width: 49.3%;
+    box-sizing: border-box;
+  }
+  .d3 {
+    width: 99%;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  .d1,
+  .d2,
+  .d3 {
+    clear: both;
+    margin: 5px;
+  }
+}
