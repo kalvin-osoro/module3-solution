@@ -59,6 +59,7 @@ body {
   
   #nav-list {
     margin-top: 10px;
+    background-color: aqua;
    
   }
   
@@ -95,8 +96,7 @@ body {
     clear: both;
     margin-top: -30px;
   }
-  @media(min-width )
- 
+  
   
   
  
